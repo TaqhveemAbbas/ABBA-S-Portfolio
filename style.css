@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&family=Inter:wght@300;400;500&display=swap');
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--r:#FF2D20;--y:#FFE000;--w:#FFFFFF;--b:#000000;--g:#0A0A0A}
+:root{--r:#ffffff;--y:#FFE000;--w:#FFFFFF;--b:#000000;--g:#0A0A0A}
 html{scroll-behavior:smooth}
-body{background:#fff;color:#fff;font-family:'Inter',sans-serif;overflow-x:hidden;cursor:none}
+body{background:#000;color:#fff;font-family:'Inter',sans-serif;overflow-x:hidden;cursor:none}
+
 
 /* ── CURSOR ── */
 .cur{position:fixed;width:10px;height:10px;background:#FFE000;border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);mix-blend-mode:difference;transition:width .2s,height .2s}
